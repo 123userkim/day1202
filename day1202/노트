@@ -1,0 +1,58 @@
+	**그러데이션
+	1. 줄무늬
+	background: -webkit-repeating-linear-gradient(yellow,yellow 20px, red 20px,red 40px);
+	2. 그러데이션 안에 원형 위치 조절
+	background: -webkit-radial-gradient(10% 10%, circle, white,blue );
+	3. 그러데이션 안에 타원
+	background: -webkit-radial-gradient(white, yellow, red);
+	4. 그러데이션 안에 원형
+	background: -webkit-radial-gradient(circle,white, yellow, red);
+	5. 그러데이션 안에 일직선
+	background: -webkit-linear-gradient(top,#06f,white 30%,#06f);
+	
+	
+	6.그림 가로로 정렬하기
+	display: inline;	
+		
+	6-1.가로세로 크기를 가지는 박스일 때 (가로로 정렬)
+	inline만으로는 안됨
+	display: inline-block;  
+	
+	7.그림을 세로로 정렬하기
+	display: block;
+	
+	8.margin의 위아래 값을 다르게 하려면 (margin : 요소의 바깥쪽 여백)
+	margin : (시계방향으로 위, 오른, 아래, 왼) 
+	ex)
+	위30 우50 아래30 좌50
+		margin: 30px 50px 30px 50px;
+	위아래30, 좌우50
+		margin: 30px 50px;
+	위 좌우 아래
+		margin:  30px 5px 10px;
+	그냥 가운데로
+		margin: 0 auto;
+	9. 아웃라인 선 바꾸기
+	border-style: dotted;
+	border-style: solid;
+	border-style: dashed;
+	
+	10. 테두리 관련 속성
+	모서리 둥글게
+		border-radius: 20px;
+	왼쪽 모서리만 둥글게
+		border-top-left-radius: 100px;
+	왼쪽 모서리 둥글게- 둥근 부분 조금씩 다르게 둥글게
+		border-top-left-radius: 100px 50px;
+	아래쪽 오른 모서리 둥글게
+		border-bottom-right-radius: 50% 30%;
+	그림자효과
+	가로 세로 흐림정도 번짐정도 색깔
+		box-shadow: 2px -2px 5px 0px black;
+		
+		
+	11.float속성
+	요소를 왼쪽이나 오른쪽에 떠 있게 만듦
+	12.clear
+	float속성을 무효화 시키는 속성
+	-clear: both; 모두 무효화 시킴
